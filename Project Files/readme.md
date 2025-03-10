@@ -16,3 +16,55 @@ To run this project, you need a valid Google Generative AI API Key.
 
 ### Step 3: Run the Application
 Now, you can start the project:
+
+
+
+## # 🍽️ Flavour Fusion: AI-Driven Recipe Blogging  
+
+## 📌 Introduction  
+This is a **Streamlit-based web application** that generates **AI-driven recipe blogs** using **Google's Generative AI (Gemini 1.5 Flash)**. Users can enter a **recipe topic**, specify the **word count**, and get a **detailed recipe**. Additionally, a **random programmer joke** is displayed for fun while content is being generated.  
+
+---
+
+## 🚀 Features  
+- **AI-generated recipe blogs** based on user input  
+- **Customizable word count** (500–2000 words)  
+- **Random programmer joke** for entertainment  
+- **Simple web UI using Streamlit**  
+
+---
+
+## 🛠️ Setup Instructions  
+
+### **1️⃣ Install Dependencies**  
+Ensure you have **Python 3.8+** installed, then install the required libraries:  
+```sh
+pip install -r requirements.txt
+
+```
+step 2 :Set Up API Key
+Create a file named api_key.env in the project directory.
+Add the following line inside api_key.env:
+
+GOOGLE_API_KEY=your_api_key_here
+Do not upload api_key.env to GitHub (it is ignored via .gitignore).
+Running the Application
+Run the following command:
+
+
+streamlit run app.py
+The application will open in your browser.
+
+How It Works
+Enter a recipe topic (e.g., "Vegan Chocolate Cake").
+Select the word count (500–2000 words).
+Click "Generate Recipe" to get an AI-generated blog.
+A programmer joke is displayed during generation.
+Fun Feature: Programmer Jokes
+Each time a recipe is generated, a random programmer joke is displayed.
+
+Example:
+
+Why do programmers prefer dark mode? Because light attracts bugs!
+
+
